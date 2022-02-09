@@ -1,0 +1,151 @@
+body {
+    background-color: #eee;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+.navbar-default {
+	padding-top: 0px;
+}
+
+.navbar-brand {
+	font-weight: 700;
+}
+
+.navbar-default .navbar-brand {
+	color: #3e4ba0;
+}
+
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	font-weight: bold;
+	color: black;
+	background-color: transparent;
+	border-bottom: 2px solid black
+}
+
+
+
+.navbar-default .navbar-nav > li > a {
+	color: black;
+	font-weight: 500;
+}
+
+
+
+div#content {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+div#title {
+    text-align: left;
+    display: block;
+    margin: 0px 25px;
+}
+
+div.personal-statement {
+    float: left;
+    margin: 0px 10px;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+table#personal-statement-table {
+    margin-top: 15px;
+}
+
+img#profile-img {
+    max-height: 200px;
+    height: auto;
+    border-radius: 15px;
+      display: block;
+  margin-left: auto;
+  margin-right: 20px;
+  margin-top: 16px;
+  padding: 5px;
+}
+
+div#links {
+    width: 100%
+}
+div#links a {
+    float: left;
+    text-align: center;
+    width: 25%; /* 600 / num_links */
+}
+
+h1 {
+    margin: 10px;
+}
+
+ul {
+/*     list-style-type: none; */
+}
+
+span.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+td.image-td {
+    width: 20%;
+    text-align: center;
+}
+td.description-td {
+    width: 70%
+}
+img.project-img {
+    max-width: 200px;
+    max-height: 150px;
+    height: auto;
+    width: auto;
+    border-radius: 3px;
+}
+table {
+    width: 100%;
+}
+div.container {
+    float: left;
+    width: 100%;
+}
+
+a {
+    color: #47D;
+}
+a2 {
+    color: rgb(226, 39, 39);
+}
+h2 {
+    color: #47D;
+    margin-left: 0%;
+}
+h3 {
+    color: rgb(0, 0, 0);
+    margin-left: 0%;
+}
+
+td#personal-statement-td {
+    width: 70%;
+}
+
+hr {
+    height: 2px;
+    border: none;
+    background: #ccc;
+    border-radius: 8px;
+}
+p#copyright {
+    text-align: center;
+    font-size: 12px;
+}
